@@ -1,0 +1,29 @@
+﻿<Window x:Class="new_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:new_calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="500">
+    <Grid Margin="0,0,0,101">
+        <TextBox Name="text1" HorizontalAlignment="Left" Height="64" Margin="32,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="433"/>
+        <Button Name="b7" Content="7" HorizontalAlignment="Left" Margin="32,138,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="b7_Click"/>
+        <Button Name="b8" Content="8" HorizontalAlignment="Left" Margin="151,138,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="b8_Click"/>
+        <Button Name="b9" Content="9" HorizontalAlignment="Left" Margin="274,138,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="b9_Click"/>
+        <Button Name="b4" Content="4" HorizontalAlignment="Left" Margin="32,209,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="b4_Click"/>
+        <Button Name="b5" Content="5" HorizontalAlignment="Left" Margin="151,209,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="b5_Click"/>
+        <Button Name="Multiply" Content="x" HorizontalAlignment="Left" Margin="399,138,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="Multiply_Click"/>
+        <Button Name="b6" Content="6" HorizontalAlignment="Left" Margin="274,209,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="b6_Click"/>
+        <Button Name="Subtract" Content="-" HorizontalAlignment="Left" Margin="399,209,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="Subtract_Click"/>
+        <Button Name="b1" Content="1" HorizontalAlignment="Left" Margin="32,284,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="b1_Click"/>
+        <Button Name="b2" Content="2" HorizontalAlignment="Left" Margin="151,284,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="b2_Click"/>
+        <Button Name="b0" Content="0" HorizontalAlignment="Left" Margin="32,359,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="b0_Click"/>
+        <Button Name="Mod" Content="%" HorizontalAlignment="Left" Margin="151,359,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="bp_Click"/>
+        <Button Name="b3" Content="3" HorizontalAlignment="Left" Margin="274,284,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="b3_Click"/>
+        <Button Name="Addition" Content="+" HorizontalAlignment="Left" Margin="399,284,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="Addition_Click"/>
+        <Button Name="Divide" Content="/" HorizontalAlignment="Left" Margin="274,359,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="Divide_Click"/>
+        <Button Name="Equal" Content="=" HorizontalAlignment="Left" Margin="399,359,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="Equal_Click"/>
+
+    </Grid>
+</Window>
